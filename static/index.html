@@ -5,7 +5,9 @@
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<! -- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel='stylesheet'>
+	<link href='css/boootsrap-theme.min.css' rel='stylesheet'>
 	<link href="css/introHCI.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
@@ -18,12 +20,13 @@
 </head>
 
 <body>
-	<div>
+	<div class = 'container'>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
-			<h1>Michael Bernstein</h1>
+		<div class = 'jumbotron'>
+			<h1>Eryue Xu</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+			<button id="testjs" class="btn btn-primary btn-lg">Test Javascript</button>
 		</div>
 
 
@@ -80,5 +83,11 @@
 			</a>
 		</div>
 	</div>
+
+	<!-- jQuery (for bootstraps plygins)-->
+	<script src='https://code.jquery.com/jquery.js'></script>
+	<!-- include all compiled plugins(below), or include indicidual files as needed-->
+	<script src='js/bootstraps.min.js'></script>
+	<script src='js/introHCI.js'></script>i
 </body>
 </html>
